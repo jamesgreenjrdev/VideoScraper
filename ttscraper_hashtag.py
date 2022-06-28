@@ -34,7 +34,7 @@ def scrapeVideos(query, amount, lst):
         time.sleep(.25)
         lst.append(pyperclip.paste()) # THIS PASTES THE LINK INTO A LIST
         time.sleep(1)
-        pyautogui.click(1340,560) # THIS CLICKS THE ARROW TO SCROLL DOWN A TIKTOK
+        pyautogui.click(1343,588) # THIS CLICKS THE ARROW TO SCROLL DOWN A TIKTOK
         time.sleep(1)
 
     pyautogui.click(40, 110) # THIS X'ES OUT OF THE TIKTOK SCREEN
